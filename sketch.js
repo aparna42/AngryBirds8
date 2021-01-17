@@ -49,7 +49,6 @@ function setup(){
 function draw(){
     if(backgroundImg)
         background(bg);
-        console.log(bird.body.speed)
         noStroke();
         textSize(35)
         fill("white")
