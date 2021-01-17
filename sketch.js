@@ -13,7 +13,7 @@ var bg = "sprites/bg1.png";
 var score = 0;
 
 function preload() {
-    //getBackgroundImg();
+    getBackgroundImg();
 }
 
 function setup(){
@@ -47,7 +47,7 @@ function setup(){
 }
 
 function draw(){
-    //if(backgroundImg)
+    if(backgroundImg)
         background(bg);
         console.log(bird.body.speed)
         noStroke();
